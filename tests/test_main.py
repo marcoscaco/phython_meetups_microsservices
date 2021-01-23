@@ -15,6 +15,7 @@ def test_lambda_handler():
     assert isinstance(handler_return, str)
     assert handler_return == expected_return
 
+
 def test_number_par():
     from src.main import number_par
 
