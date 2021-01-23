@@ -35,4 +35,4 @@ jobs:
       env:
         PYTHONPATH: $PYTHONPATH:./src 
       run: |
-        ls && pytest
+        echo $PYTHONPATH
