@@ -12,6 +12,9 @@ def lambda_handler(event, context):
 
     return 'Hello'
 
+def number_par():
+
+    return 3
 
 if __name__ == '__main__':
     event = None
