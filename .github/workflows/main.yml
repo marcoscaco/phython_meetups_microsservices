@@ -35,8 +35,12 @@ jobs:
     - name: Test with pytest
       run: |
         echo $PYTHONPATH
+        ls $PYTHONPATH
+        echo $GITHUB_WORKSPACE
+        ls $GITHUB_WORKSPACE
         PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE
         echo $PYTHONPATH
+        ls $PYTHONPATH
         pytest
         
       
