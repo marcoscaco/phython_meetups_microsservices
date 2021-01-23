@@ -8,6 +8,7 @@ def test_lambda_handler():
     context = None
 
     handler_return = lambda_handler(event, context)
+
     expected_return = 3
 
     #### Começa os testes

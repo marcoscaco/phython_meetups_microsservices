@@ -10,7 +10,9 @@ def lambda_handler(event, context):
         Um string com valor de `Hello`
     """
 
+
     return 1+2
+
 
 
 if __name__ == '__main__':
