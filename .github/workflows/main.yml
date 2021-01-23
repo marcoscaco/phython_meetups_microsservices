@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Build para os testes unitarios
         run:
-         pip install -r req.txt
+         pip install -r ./req.txt
   test:
     runs-on: ubuntu-latest
     steps:
