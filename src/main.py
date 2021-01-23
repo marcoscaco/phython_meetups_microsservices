@@ -14,7 +14,7 @@ def lambda_handler(event, context):
 
 def number_par():
 
-    return 3
+    return 2
 
 if __name__ == '__main__':
     event = None
