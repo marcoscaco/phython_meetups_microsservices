@@ -19,3 +19,8 @@ def test_number_par():
     expected_return = bool(handler_return % 2 == 0)
 
     assert expected_return
+
+
+def test_caixa_alta():
+    from src.main import caixa_alta
+    assert caixa_alta('capital') == 'Capital'
