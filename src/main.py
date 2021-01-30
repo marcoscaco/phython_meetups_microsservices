@@ -16,6 +16,11 @@ def number_par():
 
     return 2
 
+def caixa_alta(x):
+    return x.capitalize()
+
+
+
 if __name__ == '__main__':
     event = None
     context = None
