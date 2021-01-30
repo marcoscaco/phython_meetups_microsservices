@@ -20,7 +20,6 @@ def test_number_par():
 
     assert expected_return
 
-
 def test_caixa_alta():
     from src.main import caixa_alta
     assert caixa_alta('capital') == 'Capital'
