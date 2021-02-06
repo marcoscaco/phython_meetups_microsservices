@@ -1,5 +1,5 @@
 def test_lambda_handler():
-    from src.main import lambda_handler
+    from python_meetups_microsservices.src.main import lambda_handler
 
     event = None
     context = None
