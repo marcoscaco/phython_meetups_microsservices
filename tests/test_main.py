@@ -13,6 +13,12 @@ def test_lambda_handler():
 
 
 def test_number_par():
+    """
+    Método de teste que verifica se um número é par
+
+    :return:
+        espera um número par
+    """
     from src.main import number_par
 
     handler_return = number_par()
