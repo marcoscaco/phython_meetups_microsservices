@@ -14,7 +14,12 @@ def lambda_handler(event, context):
 
 
 def number_par():
+    """
+    Método que retorna um valor fixo
 
+    :return:
+        Um int com valor de 2
+    """
     return 2
 
 
